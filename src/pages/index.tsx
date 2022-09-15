@@ -14,7 +14,7 @@ import Testimonials from '../components/Sections/Testimonials';
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const Home: FC = memo(() => {
-  const title = 'React Resume Template';
+  const title = 'Usman Hussain';
   const description = "Example site built with Tim Baker's react resume template";
 
   return (
