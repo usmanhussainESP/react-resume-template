@@ -15,7 +15,7 @@ const Header = dynamic(() => import('../components/Sections/Header'), {ssr: fals
 
 const Home: FC = memo(() => {
   const title = 'Usman Hussain';
-  const description = "Example site built with Tim Baker's react resume template";
+  const description = "Hello from the world!";
 
   return (
     <Page description={description} title={title}>
